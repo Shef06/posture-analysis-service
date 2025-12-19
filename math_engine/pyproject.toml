@@ -1,0 +1,21 @@
+[project]
+name = "posture-math-engine"
+version = "1.0.0"
+description = "Microservizio matematico puro per calcolo Ghost Profile e analisi postura"
+requires-python = ">=3.12,<3.13"
+readme = "README.md"
+
+[project.dependencies]
+fastapi = ">=0.104.1"
+uvicorn = {extras = ["standard"], version = ">=0.24.0"}
+pydantic = ">=2.5.0"
+python-multipart = ">=0.0.6"
+numpy = ">=1.24.3,<2.0.0"
+mediapipe = ">=0.10.8"
+opencv-python-headless = ">=4.8.1"
+python-json-logger = "==2.0.7"
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+

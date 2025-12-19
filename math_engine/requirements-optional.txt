@@ -1,0 +1,9 @@
+# Dipendenze opzionali per endpoint extract-from-video
+# INSTALLA SOLO SE:
+#   1. Usi Python 3.11 o 3.12 (MediaPipe non supporta Python 3.13)
+#   2. Vuoi usare l'endpoint /v1/extract-from-video
+
+# MediaPipe e OpenCV per estrazione landmark da video
+mediapipe>=0.10.8
+opencv-python-headless>=4.8.1
+
